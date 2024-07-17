@@ -1,0 +1,57 @@
+body {
+    min-height: 100vh;
+    background: #0e6141;
+    color: rgb(211, 2, 253);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    box-sizing: border-box;
+}
+
+h1 {
+    /*color: white;*/
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 100px;
+    margin-bottom: 20px;
+}
+
+.text {
+    text-align: center;
+}
+
+.riddle {
+        color: white;
+        font-family: "Chakra Petch", sans-serif;
+        font-weight: 300;
+        font-style: italic;
+        font-size: 40px;
+}
+
+.answer {
+    color:#0e6141;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 200;
+    font-style: bold;
+    font-size: 20px;
+}
+
+#get {
+    display: block;
+    margin: 20px auto;
+}
+
+.answer:hover {
+    color: white;
+    transition: color 1s;
+}
+
+.answer:hover:before,
+.answer:hover:after {
+    animation: none;
+    opacity: 0;
+}
